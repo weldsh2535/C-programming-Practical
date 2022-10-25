@@ -14,7 +14,7 @@ int main()
         {
             fact *= i;
         }
-        printf("The factorails of %d", fact);
+        printf("The factorails of  %d \n\n", fact);
     }
     return 0;
 }

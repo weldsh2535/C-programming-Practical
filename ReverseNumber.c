@@ -11,6 +11,6 @@ int main(){
         rev = rev*10+remanider;
          nums = nums/10;
     }
-    printf("The Reverse %d is %d",nums,rev);
+    printf("The Reverse %d is %d \n",nums,rev);
     return 0;
 }
