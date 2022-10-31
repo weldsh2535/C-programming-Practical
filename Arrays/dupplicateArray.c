@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-
+//To remove duplicate character at the give strings
 int main(){
 
     int i,j,k;
