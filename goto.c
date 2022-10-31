@@ -5,10 +5,11 @@
 
 int main() {
 
-   const int maxInput = 10;
+   int maxInput;
    int i;
    double number, average, sum = 0.0;
-
+   printf("Enter the maxInput:\n");
+   scanf("%d",&maxInput);
    for (i = 1; i <= maxInput; ++i) {
       printf("%d. Enter a number: ", i);
       scanf("%lf", &number);
